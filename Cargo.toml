@@ -1,0 +1,188 @@
+[package]
+name = "cses"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[bin]]
+name = "appartement"
+path = "src/appartements.rs"
+
+[[bin]]
+name = "grid_paths"
+path = "src/grid_paths.rs"
+
+[[bin]]
+name = "ferris_wheel"
+path = "src/ferris_wheel.rs"
+
+[[bin]]
+name = "sum_of_two_values"
+path = "src/sum_of_two_values.rs"
+
+[[bin]]
+name = "collecting_numbers"
+path = "src/collecting_numbers.rs"
+
+[[bin]]
+name = "collecting_numbers_ii"
+path = "src/collecting_numbers_ii.rs"
+
+[[bin]]
+name = "traffic_lights"
+path = "src/traffic_lights.rs"
+
+[[bin]]
+name = "room_allocation"
+path = "src/room_allocation.rs"
+
+[[bin]]
+name = "factory_machines"
+path = "src/factory_machines.rs"
+
+[[bin]]
+name = "sum_of_three_values"
+path = "src/sum_of_three_values.rs"
+
+[[bin]]
+name = "sum_of_four_values"
+path = "src/sum_of_four_values.rs"
+
+[[bin]]
+name = "subarray_sum_ii"
+path = "src/subarray_sum_ii.rs"
+
+[[bin]]
+name = "subarray_division"
+path = "src/subarray_division.rs"
+
+[[bin]]
+name = "subarray_distinct_values"
+path = "src/subarray_distinct_values.rs"
+
+[[bin]]
+name = "removal_game"
+path = "src/dynamic_programming/removal_game.rs"
+
+[[bin]]
+name = "two_sets_ii"
+path = "src/dynamic_programming/two_sets_ii.rs"
+
+[[bin]]
+name = "counting_rooms"
+path = "src/graph/counting_rooms.rs"
+
+[[bin]]
+name = "labyrinth"
+path = "src/graph/labyrinth.rs"
+
+[[bin]]
+name = "p188"
+path = "src/leetcode/p188.rs"
+
+[[bin]]
+name = "shortest_routes_ii"
+path = "src/graph/shortest_routes_ii.rs"
+
+[[bin]]
+name = "high_score"
+path = "src/graph/high_score.rs"
+
+[[bin]]
+name = "flight_discount"
+path = "src/graph/flight_discount.rs"
+
+[[bin]]
+name = "cycle_detecting"
+path = "src/graph/cycle_detecting.rs"
+
+[[bin]]
+name = "flight_routes"
+path = "src/graph/flight_routes.rs"
+
+[[bin]]
+name = "round_trip_ii"
+path = "src/graph/round_trip_ii.rs"
+
+[[bin]]
+name = "round_trip"
+path = "src/graph/round_trip.rs"
+
+[[bin]]
+name = "course_schedule"
+path = "src/graph/course_schedule.rs"
+
+[[bin]]
+name = "longest_flight_route"
+path = "src/graph/longest_flight_route.rs"
+
+[[bin]]
+name = "planets_queries_i"
+path = "src/graph/planets_queries_i.rs"
+
+[[bin]]
+name = "road_reparation"
+path = "src/graph/road_reparation.rs"
+
+[[bin]]
+name = "road_construction"
+path = "src/graph/road_construction.rs"
+
+[[bin]]
+name = "flight_routes_check"
+path = "src/graph/flight_routes_check.rs"
+
+[[bin]]
+name = "planets_kingdoms"
+path = "src/graph/planets_kingdoms.rs"
+
+[[bin]]
+name = "static_range_minimum_queries"
+path = "src/range_queries/static_range_minimum_queries.rs"
+
+[[bin]]
+name = "dynamic_range_sum_queries"
+path = "src/range_queries/dynamic_range_sum_queries.rs"
+
+[[bin]]
+name = "dynamic_range_minimum_queries"
+path = "src/range_queries/dynamic_range_minimum_queries.rs"
+
+[[bin]]
+name = "dynamic_range_xor_queries"
+path = "src/range_queries/dynamic_range_xor_queries.rs"
+
+[[bin]]
+name = "range_update_queries"
+path = "src/range_queries/range_update_queries.rs"
+
+[[bin]]
+name = "forest_queries"
+path = "src/range_queries/forest_queries.rs"
+
+[[bin]]
+name = "hotel_queries"
+path = "src/range_queries/hotel_queries.rs"
+
+[[bin]]
+name = "list_removals"
+path = "src/range_queries/list_removals.rs"
+
+[[bin]]
+name = "tree_diameter"
+path = "src/tree_algorithms/tree_diameter.rs"
+
+[[bin]]
+name = "tree_distance_i"
+path = "src/tree_algorithms/tree_distance_i.rs"
+
+[[bin]]
+name = "tree_distance_ii"
+path = "src/tree_algorithms/tree_distance_ii.rs"
+
+[[bin]]
+name = "word_combination"
+path = "src/strings/word_combination.rs"
